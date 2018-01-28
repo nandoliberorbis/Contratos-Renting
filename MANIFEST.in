@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include contratos *.css
+recursive-include contratos *.csv
+recursive-include contratos *.html
+recursive-include contratos *.ico
+recursive-include contratos *.js
+recursive-include contratos *.json
+recursive-include contratos *.md
+recursive-include contratos *.png
+recursive-include contratos *.py
+recursive-include contratos *.svg
+recursive-include contratos *.txt
+recursive-exclude contratos *.pyc
